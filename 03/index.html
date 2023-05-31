@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+ 
+    <form>
+        <h1> Заповніть дані </h1>
+        <div>
+            
+            <label for="first name">
+            Ім'я <input type="text" name="first name" id="first name" autocomplete="name" placeholder="Ведіть ім'я" > <br> <br>
+            </label>
+            <label for="last name">  
+            Прізвище <input type="text" name="Last Name" id="last name" placeholder="Введіть прізвище"> <br><br>
+            </label>
+             <label for="date">
+            Дата народження  <input type="date" id="date" name="date" required> <br><br>
+            </label>
+             <label for="sex">
+             Вкажіть стать <br>
+                <input type="radio" name="sex" value="man" checked>  чоловік
+                 <input type="radio" name="sex" value="women"> жінка <br> <br> 
+            </label>
+        </div>
+        <div>
+            <p>Додаткові опції</p>
+                <input type="checkbox" name="checkbox" value="1" checked > Святкове пакування <br>
+                <input type="checkbox" name="checkbox" value="2"> Вітальна листівка <br>
+                <input type="checkbox" name="checkbox" value="3"> Шоколадка <br><br>
+            </label>
+        </div>
+        <div>
+            <p> Додайте фото для листівки </p>
+            <input type="file" name="file" value="dodaj failes"> <br><br>
+             <input type="submit" name="submit" value="Відправити" > 
+            <input type="reset" name="reset" value="Cancell"> <br> <br>
+        </div>
+        
+    </form>
+</body>
+</html>
